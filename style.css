@@ -1,0 +1,516 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*.container-backgraund {
+  display: inline-block;
+}
+.container-backgraund-img {
+  background: linear-gradient(175.68deg, #f3f7ff -10.48%, #deeefe 92.66%);
+  transform: rotate(21.46deg);
+  margin-top: 800px;
+}*/
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  display: inline-block;
+  padding-right: 40px;
+  list-style: none;
+  opacity: 0.5;
+}
+.home {
+  opacity: 1;
+}
+.hero {
+  display: flex;
+  justify-content: space-around;
+}
+.hero-texts {
+  margin-top: 120px;
+  width: 380px;
+}
+.hero-title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  /* or 117% */
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+}
+.hero-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  /* or 152% */
+
+  color: #7d7987;
+
+  mix-blend-mode: normal;
+  margin-top: 20px;
+}
+.hero-button {
+  background: #458ff6;
+  border-radius: 55px;
+  font-family: "Muli";
+  font-size: 18px;
+  border-color: #458ff6;
+  /* or 333% */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  padding: 10px;
+  margin-top: 20px;
+}
+.services-texts {
+  margin-top: 150px;
+}
+.services-title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  /* identical to box height, or 156% */
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+  text-align: center;
+}
+.services-line {
+  width: 60px;
+  margin: 0 auto;
+}
+.services-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  text-align: center;
+
+  color: #7d7987;
+
+  mix-blend-mode: normal;
+  text-align: center;
+}
+.services-boxes {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 75px;
+}
+.services-box {
+  box-shadow: rgba(229, 233, 246, 0.4) 10px 40px 50px;
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+  padding: 30px;
+  margin: 10px;
+  width: 330px;
+  height: 334px;
+}
+.box-title {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+  color: rgb(0, 0, 0);
+  mix-blend-mode: normal;
+  margin-top: 80px;
+}
+.box-text {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(125, 121, 135);
+  mix-blend-mode: normal;
+}
+.services-button {
+  box-sizing: border-box;
+  border: 1.4px solid #458ff6;
+  border-radius: 55px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+
+  /* identical to box height, or 333% */
+
+  color: #458ff6;
+
+  padding: 20px 40px;
+  display: block;
+
+  margin: 0 auto;
+  margin-top: 50px;
+
+  background-color: #ffffff;
+}
+.providers {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.providers-texts {
+  margin-top: 50px;
+  margin-left: 150px;
+  width: 380px;
+}
+.providers-title {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  /* or 156% */
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+}
+.providers-line {
+  background: #000000;
+  border-radius: 10px;
+  width: 60px;
+  margin-top: 20px;
+}
+.providers-text {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  color: #7d7987;
+
+  mix-blend-mode: normal;
+  margin-top: 20px;
+}
+.providers-button {
+  box-sizing: border-box;
+  border: 1.4px solid #458ff6;
+  border-radius: 55px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+
+  /* identical to box height, or 333% */
+
+  color: #458ff6;
+
+  padding: 20px 40px;
+
+  margin-top: 50px;
+
+  background-color: #ffffff;
+}
+.apps {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+.apps-texts {
+  margin-top: 100px;
+  width: 380px;
+}
+.apps-title {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  /* or 133% */
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+}
+.apps-line {
+  background: #000000;
+  border-radius: 6px;
+  width: 60px;
+  margin-top: 20px;
+}
+.apps-text {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  /* or 167% */
+
+  color: #7d7987;
+
+  mix-blend-mode: normal;
+  margin-top: 20px;
+}
+.apps-button {
+  box-sizing: border-box;
+  border: 1.4px solid #458ff6;
+  border-radius: 55px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+
+  /* identical to box height, or 333% */
+
+  color: #458ff6;
+
+  padding: 20px 40px;
+
+  margin-top: 50px;
+
+  background-color: #ffffff;
+}
+.castomer {
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 24px;
+  margin: 0 auto;
+  margin-top: 150px;
+  width: 1080px;
+  height: 350px;
+}
+.castomer-title {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height, or 133% */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  text-align: center;
+}
+.castomer-line {
+  background: #ffffff;
+  border-radius: 6px;
+  width: 60px;
+  margin: 0 auto;
+}
+.castomer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+.castomer-text {
+  width: 350px;
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  /* or 158% */
+
+  color: rgba(255, 255, 255, 0.9);
+
+  mix-blend-mode: normal;
+  margin-right: 70px;
+}
+.castomer-img {
+  display: flex;
+  align-items: center;
+  margin: 50px 100px;
+}
+.castomer-edvards {
+  margin-left: 35px;
+}
+.castomer-name {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 48px;
+  /* identical to box height, or 218% */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+}
+.castomer-circle {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 48px;
+  /* identical to box height, or 267% */
+
+  color: rgba(255, 255, 255, 0.85);
+
+  mix-blend-mode: normal;
+}
+.article-title {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  /* identical to box height, or 156% */
+
+  color: #000000;
+
+  mix-blend-mode: normal;
+  text-align: center;
+  margin-top: 150px;
+}
+.article-line {
+  background: #000000;
+  border-radius: 5px;
+  width: 60px;
+  margin: 0 auto;
+}
+.article-box {
+  width: 350px;
+  height: 512px;
+  background: #ffffff;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+}
+.article-box-title {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  color: #000000;
+  mix-blend-mode: normal;
+  margin: 15px;
+}
+.article-box-text {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  color: #7d7987;
+  mix-blend-mode: normal;
+  margin: 15px;
+}
+.article-box-button {
+  font-family: "Muli";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 28px;
+  color: #4089ed;
+  mix-blend-mode: normal;
+  margin: 15px;
+}
+.article-box-texts {
+  padding: 20px;
+}
+.article-boxes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.article-button {
+  box-sizing: border-box;
+  border: 1.4px solid #458ff6;
+  border-radius: 55px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+
+  /* identical to box height, or 333% */
+
+  color: #458ff6;
+
+  padding: 20px 60px;
+  display: block;
+
+  margin: 0 auto;
+  margin-top: 50px;
+
+  background-color: #ffffff;
+}
+.columns {
+  background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+  width: 1200px;
+  height: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 150px;
+}
+.column-trafalgar {
+  width: 390px;
+  margin-top: 60px;
+}
+.column-text1 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  margin-top: 20px;
+}
+.column-text2 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  margin-top: 30px;
+}
+.column-tytle {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 60px;
+  /* identical to box height, or 300% */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  margin-top: 60px;
+}
+.column-text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  /* or 211% */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+}
+.column {
+  width: 100px;
+}
